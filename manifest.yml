@@ -1,0 +1,13 @@
+---
+applications:
+- name: bfdredis
+  memory: 128M
+  disk_quota: 512M
+  instances: 1
+  command: bfdredis
+  env:
+    SERVICE_NAME: bfdredis
+    SERVICE_DESCRIPTION: An redis cloud service
+    TAGS: redis,codis,cache
+  services:
+   - mysql
