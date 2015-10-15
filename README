@@ -1,0 +1,8 @@
+
+Reference from github.com/cloudfoundry-community/worlds-simplest-service-broker
+
+Usage:
+Edit manifest.yml to config your app name, description, mysql service and so on.
+godep save
+edit importpath what you want
+cf push
